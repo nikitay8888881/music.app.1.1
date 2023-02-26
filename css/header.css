@@ -1,0 +1,33 @@
+input[type='search'] {
+    border: none;
+    border-bottom: 1px solid gainsboro;
+}
+header .logo-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+header .nav-link {
+    color: grey;
+}
+header .nav-link:hover, header .nav-link:focus, header .nav-link:active{
+    color: #ffdb4d;
+}
+
+header .nav {
+    gap: 10px;
+}
+.plus-badge {
+    font-size: 10px;
+    padding: 5px 10px;
+    background: rgb(246,97,227);
+    background: linear-gradient(148deg, rgba(246,97,227,1) 0%, rgba(255,233,112,1) 46%, rgba(59,222,255,1) 100%); 
+}
+.dropdown .d-block {
+    background: linear-gradient(148deg, rgba(246,97,227,1) 0%, rgba(255,233,112,1) 46%, rgba(59,222,255,1) 100%);
+    padding: 3px;
+    border-radius: 50%;
+
+}
+body {
+    font-family: 'Helvetica';
+}
